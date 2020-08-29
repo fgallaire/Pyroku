@@ -1,9 +1,9 @@
 {
-  "name": "PyrogramBot",
+  "name": "PyrokuBot",
   "description": "A Pyrogram bot, which can easily be deployed to Heroku.",
-  "repository": "https://github.com/fgallaire/PyrogramBot",
+  "repository": "https://github.com/fgallaire/PyrokuBot",
   "logo": "https://avatars1.githubusercontent.com/u/34474300?s=280&v=4",
-  "keywords": ["python", "pyrogram", "telegram", "userbot"],
+  "keywords": ["python", "pyrogram", "telegram", "userbot", "pyroku"],
   "image": "heroku/python",
   "formation": {
     "worker": {
