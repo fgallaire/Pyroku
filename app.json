@@ -22,8 +22,8 @@
       "description": "Bot token from https://t.me/BotFather"
     },
     "USER_ID": {
-      "description": "Bot token from https://t.me/BotFather",
-      "required": "false"
+      "description": "Your Telegram id",
+      "required": false
     }
   }
 }
