@@ -10,7 +10,7 @@
       "quantity": 1,
       "size": "free"
     }
-  }
+  },
   "env": {
     "API_ID": {
       "description": "App api_id from https://my.telegram.org"
@@ -25,5 +25,5 @@
       "description": "Bot token from https://t.me/BotFather",
       "required": "false"
     }
-  },
+  }
 }
