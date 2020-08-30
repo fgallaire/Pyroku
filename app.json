@@ -20,10 +20,6 @@
     },
     "BOT_TOKEN": {
       "description": "Bot token from https://t.me/BotFather"
-    },
-    "USER_ID": {
-      "description": "Your Telegram id",
-      "required": false
     }
   }
 }
