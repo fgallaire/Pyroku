@@ -11,7 +11,7 @@ app = Client(":memory:", api_id, api_hash, bot_token=bot_token)
 print(info)
 
 @app.on_message()
-def work(client, message):
-    app.send_message(message.chat.id, info)
+async def work(client, message):
+    await app.send_message(message.chat.id, info)
 
 app.run()
