@@ -4,10 +4,10 @@ from pyrogram import Client
 api_id = int(environ["API_ID"])
 api_hash = environ["API_HASH"]
 bot_token = environ.get("BOT_TOKEN")
-session_string = environ.get("SESSION_STRING", ":memory:")
+session_string = environ.get("SESSION_STRING")
 info = "Greetings from **Heroku**!"
 
-app = Client(session_string, api_id, api_hash, bot_token=bot_token)
+app = Client("pyroku", api_id, api_hash, bot_token=bot_token, session_string=session_string, in_memory=True)
 
 print(info)
 
